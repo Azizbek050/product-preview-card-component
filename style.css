@@ -1,0 +1,103 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html {
+font-size: 62.5%;
+overflow-x: hidden;
+}
+
+body {
+font-family: 'Montserrat';
+overflow-x: hidden;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+  background:hsl(30, 38%, 92%);
+}
+
+.parfumr{
+  width: 52rem;
+  height: 38rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.parfumr_left{
+  width: 50%;
+  height: 100%;
+  background: url(./images/image-product-desktop.jpg);
+background-position: center;
+background-size: cover;
+
+  
+}
+
+.parfumr_right{
+  width: 50%;
+  padding: 3rem;
+  background:hsl(0, 0%, 100%) ;
+}
+.parfumr_right h4{
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  color:  hsla(228, 12%, 48%, 0.744);
+  font-weight: 500;
+  letter-spacing: 0.5rem;
+}
+.parfumr_right h1{
+  color: hsl(212, 21%, 14%);
+  margin-top: 1.9rem;
+  font-size: 2.5rem;
+  font-family: "Fraunces";
+  line-height: 1;
+
+}
+.parfumr_right p{
+  color:  hsl(228, 12%, 48%);
+font-size: 1.2rem;
+font-weight: 600;
+line-height: 1.8;
+margin-top: 1.9rem;
+
+}
+.price{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+margin: 1.9rem 0;
+
+}
+
+.price a{
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: hsl(158, 36%, 37%);
+  font-family: "Fraunces";
+}
+.price span{
+margin-right: 2.5rem;
+color:  hsl(228, 12%, 48%);
+font-size: 1.2rem;
+font-weight: 600;
+text-decoration: line-through;
+}
+.btn1{
+  width: 100%;
+  height: 4rem;
+  border-radius: 0.8rem;
+  border: none;
+  color: #fff;
+  background: hsl(158, 36%, 37%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn1>span{
+  margin-right: 1rem;
+}
